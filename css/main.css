@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul a {
+  font-size: 1.3rem;
+}
+
+.sidenav li > a {
+  font-size: 1.3rem;
+}
+footer ul {
+  text-align: center;
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+main {
+  font-size: 1.5rem;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  margin-left: 10;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.social-link.facebook {
+  background-image: url("/assets/icons/facebook.png");
+}
+
+.social-link.twitter {
+  background-image: url("/assets/icons/twitter.png");
+}
+
+.social-link.Instagram {
+  background-image: url("/assets/icons/instagram.png");
+}
+
+.social-link.linkedIn {
+  background-image: url("/assets/icons/linkedin.png");
+}
+
+.social-link.YouTube {
+  background-image: url("/assets/icons/youtube2.png");
+}
