@@ -12,9 +12,7 @@ nav ul a {
   font-size: 1.3rem;
 }
 footer ul {
-  text-align: center;
   display: table;
-  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -26,8 +24,12 @@ main {
 .card {
   width: 100%;
   border-radius: 0.5em;
-
   padding: 9px;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
 }
 
 #Iframe-Liason-Sheet {
@@ -65,7 +67,7 @@ main {
 .social-link {
   width: 50px;
   height: 50px;
-  margin: 10px 10px;
+  margin: 5px 5px;
   margin-left: 10;
   background-size: 40px 40px;
   background-repeat: no-repeat;
