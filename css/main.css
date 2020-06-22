@@ -82,7 +82,7 @@ p {
 }
 
 .social-link.facebook {
-  background-image: url("./assets/icons/facebook.png");
+  background-image: url("../assets/icons/facebook.png");
 }
 
 .social-link.twitter {
@@ -90,17 +90,17 @@ p {
 }
 
 .social-link.instagram {
-  background-image: url("/assets/icons/instagram.png");
+  background-image: url("../assets/icons/instagram.png");
 }
 
 .social-link.linkedin {
-  background-image: url("/assets/icons/linkedin.png");
+  background-image: url("../assets/icons/linkedin.png");
 }
 
 .social-link.youtube {
-  background-image: url("/assets/icons/youtube2.png");
+  background-image: url("../assets/icons/youtube2.png");
 }
 
 .social-link.YouTube1 {
-  background-image: url("/assets/icons/youtube1.png");
+  background-image: url("../assets/icons/youtube1.png");
 }
