@@ -23,10 +23,43 @@ main {
   font-size: 1.5rem;
 }
 
-.card .card-image .card-title {
+.card {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+
   padding: 9px;
+}
+
+#Iframe-Liason-Sheet {
+  max-width: 950px;
+  max-height: 850px;
+  overflow: hidden;
+}
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0; /* gets height from padding-bottom setting */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* padding-bottom = h/w as a % */
+.responsive-wrapper-wxh-550x2000 {
+  padding-bottom: 363.6364%;
+}
+
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .social-link {
@@ -56,4 +89,8 @@ main {
 
 .social-link.YouTube {
   background-image: url("/assets/icons/youtube2.png");
+}
+
+.social-link.YouTube1 {
+  background-image: url("/assets/icons/youtube1.png");
 }
