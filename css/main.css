@@ -10,16 +10,16 @@ nav ul a {
 .sidenav li > a {
   font-size: 1.3rem;
 }
+
 footer ul {
   display: table;
   margin: 0 auto;
 }
 
-.footer {
+.page-footer {
   color: white;
   background-color: #007fa3;
   display: flex;
-  align: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -29,10 +29,21 @@ main {
   font-size: 1.5rem;
 }
 
+.waves-effect.waves-light.btn-large.teal {
+  border-radius: 2em;
+  color: white;
+  float: center;
+}
+
 .card {
   width: 100%;
   border-radius: 0.5em;
   padding: 9px;
+}
+
+.card-image {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 p {
